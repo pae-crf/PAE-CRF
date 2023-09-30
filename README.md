@@ -7,6 +7,12 @@ This code is mainly adapted from [bert4torch](https://github.com/Tongjilibo/bert
 The whole process includes the following steps: Preprocess, Training, Evaluation.
 
 The original datasets is provided by [kenchan](https://github.com/kenchan0226/keyphrase-generation-rl).
+The original and labeled datasets and our PAE-CRF's results can be download from [here]().
+Please read the `readme.md` under `/datasets` to get more details.
+
+The pre-trained models, consisting of bert-base-uncased to train word embedding and all-mpnet-base-v1 to rank keyphrases, can be download from [here]().
+
+The trained parameters of our PAE-CRF can be download from [here](https://drive.google.com/file/d/1aUglIQRaaFXk-9JKE0RTpEeEmMDVAKc2/view?usp=sharing).
 
 # Preprocess
 We label the datasets with BIOES scheme.
@@ -39,10 +45,27 @@ These are phrase-level labels:
 
 If you downloaded our preprocessed data, you can skip the preprocess step.
 
+# Training
+To train the model.
+
+	python ./code/train.py
+
+# Test and Evaluation
+We merge testing, post-process and evaluation in the eval.sh.
+
+If you want to onlt test the model, you can execute the following command:
+
+	python ./code/test.py -dataset_directorys ["kp20k", "nus", "inspec", "semeval"] -model_names ["paecrf"]
+
+You can comment out lines 34 to 37 in `eval.sh`, and then execute the following command to perform post-processing and evaluate the results.
+
+	./eval.sh "kp20k" "inspec" "nus" "semeval" "--" "paecrf" 
 
 
 
-The directory structure of the entire project is as follows:
+
+
+
 
 
 
