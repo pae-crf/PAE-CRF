@@ -45,6 +45,10 @@ These are phrase-level labels:
 
 If you downloaded our preprocessed data, you can skip the preprocess step.
 
+You can also process other dataset with this command, but sure that the format is same as the file under `/datasets/copyrnn_datasets/kp20k_sorted`.
+
+	python ./code/labeling.py -src_file_path [path of source file] -trg_file_path [path of target file] -sl_src_file_path [path of source file for sequence label]
+
 # Training
 To train the model.
 
