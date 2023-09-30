@@ -7,12 +7,14 @@ This code is mainly adapted from [bert4torch](https://github.com/Tongjilibo/bert
 The whole process includes the following steps: Preprocess, Training, Evaluation.
 
 The original datasets is provided by [kenchan](https://github.com/kenchan0226/keyphrase-generation-rl).
-The original and labeled datasets and our PAE-CRF's results can be download from [here]().
+The original and labeled datasets and our PAE-CRF's results can be download from [here](https://drive.google.com/file/d/1g6Rkyk0Jbcd0Vv2kJwqU5PaiP-VP_str/view?usp=sharing).
 Please read the `readme.md` under `/datasets` to get more details.
 
-The pre-trained models, consisting of bert-base-uncased to train word embedding and all-mpnet-base-v1 to rank keyphrases, can be download from [here]().
+The pre-trained models, consisting of bert-base-uncased to train word embedding and all-mpnet-base-v1 to rank keyphrases, can be download from [here](https://drive.google.com/file/d/1Rwb3y0sniiahZ6Sb8ZhlFWMQnuMWwbiq/view?usp=sharing).
+Please download and replace them under `/pretrain_models`.
 
 The trained parameters of our PAE-CRF can be download from [here](https://drive.google.com/file/d/1aUglIQRaaFXk-9JKE0RTpEeEmMDVAKc2/view?usp=sharing).
+Please download and replace it under `/checkpoints`.
 
 # Preprocess
 We label the datasets with BIOES scheme.
