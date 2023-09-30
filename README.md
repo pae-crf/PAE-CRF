@@ -59,7 +59,7 @@ If you want to onlt test the model, you can execute the following command:
 
 You can comment out lines 34 to 37 in `eval.sh`, and then execute the following command to perform post-processing and evaluate the results.
 
-	./eval.sh "kp20k" "inspec" "nus" "semeval" "--" "paecrf" 
+	./code/eval.sh "kp20k" "inspec" "nus" "semeval" "--" "paecrf" 
 
 
 
