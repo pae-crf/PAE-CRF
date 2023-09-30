@@ -31,4 +31,4 @@ The data under the folder `sequence_label_datasets` is labeled for the sequence 
 
 In the four dataset folders, we make a folder called `paecrf` to place the predictions made by PAE-CRF for this dataset.
 
-Our results is devided into three type of keyphrases, including all (i.e. allkeyword), ck(i.e. complexkeyword) and sk(i.e. simplekeyword).
+Our results is devided into three type of keyphrases, including all (i.e. allkeyword), ck(i.e. complexkeyword) and sk(i.e. simplekeyword), where ck and sk denote to MW and SW respectively.
