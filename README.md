@@ -1,5 +1,7 @@
 The official implementation of paper "A Phrase-level Attention Enhanced CRF for Keyphrase Extraction".
 
+![framework of paecrf](./pic/framework.png)
+
 # Code
 This code is mainly adapted from [bert4torch](https://github.com/Tongjilibo/bert4torch). Thanks for his work.
 
