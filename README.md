@@ -7,6 +7,11 @@ This is the framework of our paecrf.
 
 This is the results between PAE-CRF and other baselines.
 
+![main result](./pic/result1.png)
+![number](./pic/result2.png)
+![ablated result](./pic/result3.png)
+![example](./pic/result4.png)
+
 # Code
 This code is mainly adapted from [bert4torch](https://github.com/Tongjilibo/bert4torch). Thanks for his work.
 
