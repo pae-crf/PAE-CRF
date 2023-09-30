@@ -1,6 +1,11 @@
 The official implementation of paper "A Phrase-level Attention Enhanced CRF for Keyphrase Extraction".
 
+# About our PAE-CRF
+This is the framework of our paecrf. 
+
 ![framework of paecrf](./pic/framework.png)
+
+This is the results between PAE-CRF and other baselines.
 
 # Code
 This code is mainly adapted from [bert4torch](https://github.com/Tongjilibo/bert4torch). Thanks for his work.
