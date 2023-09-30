@@ -13,4 +13,4 @@ Please download datasets and place files and folders following the directory tre
 
 The data under the folder `sequence_label_datasets` is labeled for the sequence labeling task.
 
-In the four dataset folders, we make a folder called **paecrf** to place the predictions made by PAE-CRF for this dataset.
+In the four dataset folders, we make a folder called `paecrf` to place the predictions made by PAE-CRF for this dataset.
