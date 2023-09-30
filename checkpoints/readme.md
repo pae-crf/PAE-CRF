@@ -1,1 +1,1 @@
-This is a folder that save trained model parameters.
+Place the file `paecrf7681.pt` under this folder.
